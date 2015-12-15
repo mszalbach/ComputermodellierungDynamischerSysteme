@@ -7,7 +7,10 @@ Folgende Ubuntu Packete werden benötigt um das arbeiten mit Python zu vereinfac
 ```
 sudo apt-get install python3-pip virtualenv
 sudo pip install --upgrade pip
-sudo apt-get install build-essential gfortran libatlas-base-dev libatlas3gf-base python-dev libjpeg-dev libxml2-dev libfreetype6-dev
+#needed for scipy to be installed 
+sudo apt-get install build-essential gfortran libatlas-base-dev libatlas3gf-base python-dev libjpeg-dev libxml2-dev libfreetype6-dev 
+#needed for matplotlib to plot something
+sudo apt-get install tcl-dev tk-dev python-tk python3-tk
 ```
 
 ## Projekt benutzen
