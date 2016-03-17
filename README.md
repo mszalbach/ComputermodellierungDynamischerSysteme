@@ -49,5 +49,12 @@ pip install IRGENDWAS
 pip freeze > requirements.txt
 ```
 
+### PDF Export
+```bash
+sudo apt-get install texlive-latex-extra
+```
+Installiere das neuste pandoc von https://github.com/jgm/pandoc/releases/latest
 
-
+```bash
+jupyter nbconvert --to pdf datei.ipynb
+```
